@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kothri.com</title>
+    <script src="https://kit.fontawesome.com/03d1af02b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header-left">
+            <div class="header-left-logo"><img src="MadhyaPradesh Shasan(transparent).png" alt=""></div>
+        </div>
+        <div class="header-left-text">
+            <h1>KOTHRI</h1>
+        </div>
+        <div class="header-right">
+            <div class="header-right-logo"><img src="VIT logo.png" alt=""></div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div id="navbar">
+        <div class="navbar">
+            <nav>
+                <ul class="sidemenu">
+                    <li><a data-active="index" href="index.html">Home</a></li>
+                    <li><a data-active="index" href="shop.html">Shops</a></li>
+                    <li><a data-active="index" href="Restaurant.html">Restaurants</a></li>
+                    <li><a data-active="index" href="hotel.html">Hotels</a></li>
+                    <li><a data-active="index" href="pg.html">PGs</a></li>
+                    <li><a data-active="index" href="canteens.html">Mess/Canteens</a></li>
+                    <li><a data-active="index" href="PicnicSpot.html">Picnic Spot</a></li>
+                    <li><a data-active="index" href="BusStops.html">Bus Stops</a></li>
+                    <li><a data-active="index" href="taxi.html">Taxi</a></li>    
+                    <li><a data-active="index" href="auto.html">Auto</a></li>    
+                    <li><a data-active="index" href="temples.html">Temples</a></li>    
+                    <li><a data-active="index" href="Clinincs.html">Clinics/Hospitals</a></li> 
+                    <!-- <i class="fa-solid fa-times" onclick="closemenu()"></i>    -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- section -->
+    <div id="section">
+        <div class="section">
+            <section>
+                <h2>Welcome to Kothri</h2>                
+                <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                  <img src="Kothri 1.jpg" style="height: 500px;">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="Vit Bhopal.jpg" style="height: 500px;">
+                </div>
+                
+                <!-- <div class="mySlides fade">
+    
+                  <img src="IMG20230401201854.jpg" style="height: 500px;">
+                  
+                </div> -->
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <footer>
+            <div class="footer">
+            
+                <div class="social">
+                    <h2>Follow Us</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100010506966089"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/AkashVe02089001"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/its_akash_akku_azad_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/akash-verma-4a534b201/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/akashazad-dot"><i class="fa-brands fa-github"></i></a>
+                </div>
+            <div class="row">
+            <div class="emergency-contact-left">
+                <h2>Emergency Contacts</h2>
+                <p>Police:- 07560</p>
+                <p>Ambulance:- 07560</p>
+                <p>Fire Brigade:- 07560</p>
+            </div>
+            <div class="office-right">
+                <h2>Kothri Government Office</h2>
+                <p>Nagar Parishad Office</p>
+                <p>Contact:-</p>
+                <p>Address:-</p>
+            </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169 Akash. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+    <script>// navbar
+
+        // var sidemeu=document.getElementById("sidemenu");
+        // function openmenu(){
+        //   sidemeu.style.right="0";
+        // }
+        
+        // function openmenu(){
+        //   sidemeu.style.right="-300px"
+        // }
+
+        burger=document.querySelector('.burger')
+        navbar=document.querySelector('.navbar')
+
+
+        burger.addEventListener('click', ()=>{
+            navbar.classList.toggle('sidemenu')
+        })
+        </script>
+</body>
+</html>
